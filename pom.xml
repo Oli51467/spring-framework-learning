@@ -13,9 +13,12 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>spring-framework</name>
     <description>spring-framework</description>
+
     <properties>
-        <java.version>11</java.version>
+        <java.version>8</java.version>
+        <netty.version>4.1.35.Final</netty.version>
     </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -45,6 +48,12 @@
             <groupId>cglib</groupId>
             <artifactId>cglib</artifactId>
             <version>3.3.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>${netty.version}</version>
         </dependency>
 
     </dependencies>
